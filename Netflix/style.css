@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #847474;
+    color: #de2c2c;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #645b5b;
+    color: #e31313;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #c5bebe;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.search-symbol, .logout-symbol img {
+    margin-left: 10px;
+    width: 20px; /* Adjust the width as needed */
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    background-color: #cbc1c1;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h {
+    color: #ec1212;
+}
+
+.Home img, .Movies img,.My-List img ,.Shows img{
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #6c6363;
+    padding: 1rem;
+    text-align: center;
+}
